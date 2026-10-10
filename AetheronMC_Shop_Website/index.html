@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AetheronMC Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>🌌 AetheronMC Shop</h1>
+<p>Premium Minecraft Store</p>
+</header>
+
+<div class="username-box" id="login">
+<h2>Enter Minecraft Username</h2>
+<input id="username" placeholder="Minecraft Name">
+<button onclick="saveName()">Continue</button>
+</div>
+
+<main id="shop" class="hidden">
+<section>
+<h2>🏆 Ranks</h2>
+<div class="card">
+<h3>VIP</h3>
+<p>/tpahere</p>
+<p>/rtp Normal World + Nether</p>
+<b>$5</b>
+<button onclick="ticket('VIP')">Buy</button>
+</div>
+
+<div class="card">
+<h3>Alpha</h3>
+<p>/tpahere</p>
+<p>/rtp Normal World + Nether + End</p>
+<b>$9</b>
+<button onclick="ticket('Alpha')">Buy</button>
+</div>
+</section>
+
+<section>
+<h2>🔑 Keys</h2>
+<div class="card">
+<h3>ProGamer Key</h3>
+<p>Full Kit Protection 6</p>
+<b>$1.99</b>
+<button onclick="ticket('ProGamer Key')">Buy</button>
+</div>
+
+<div class="card">
+<h3>ProGamer_Crystal Key</h3>
+<p>Full Kit Blast Protection 5</p>
+<b>$2.99</b>
+<button onclick="ticket('ProGamer_Crystal Key')">Buy</button>
+</div>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
